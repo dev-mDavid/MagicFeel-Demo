@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../../../codeBase/animation/hello world test/hello world","loc":{"line":1,"column":27}}],"generated":{"js":"\"use strict\";var e=require(\"../../../codeBase/animation/hello world test/hello world\");(0,e.helloWorld)();"},"hash":"61775ed84e7121c584ee32e284fe2f10","cacheData":{"env":{}}}
