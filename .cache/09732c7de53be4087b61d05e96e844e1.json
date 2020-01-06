@@ -1,1 +1,1 @@
-{"dependencies":[],"generated":{"js":"\"use strict\";function e(){console.log(\"hello world\")}Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.divsFadeIn=e;"},"hash":"48ac438732ee75fd506f8055b7b73c11","cacheData":{"env":{}}}
+{"dependencies":[],"generated":{"js":"\"use strict\";function e(){var e=document.getElementsByTagName(\"h1\")[0];console.log(e)}Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.divsFadeIn=e;"},"hash":"4eb0e241d84260816eed2288654764e9","cacheData":{"env":{}}}

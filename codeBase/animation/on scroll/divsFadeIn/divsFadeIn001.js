@@ -1,8 +1,8 @@
 export function divsFadeIn() {
-  // const title = document.getElementsByTagName('h1')[0];
+  const title = document.getElementsByTagName('h1')[0];
 
-  // console.log(title);
-  console.log('hello world');
+  console.log(title);
+  // console.log('hello world');
 
   // const hr = Array.from(document.getElementsByClassName('sqs-block-horizontalrule'));
 
