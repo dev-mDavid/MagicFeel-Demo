@@ -1,0 +1,1 @@
+const hr = Array.from(document.getElementsByClassName('sqs-block-horizontalrule'));
