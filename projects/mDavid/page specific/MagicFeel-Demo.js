@@ -1,3 +1,7 @@
-import { helloWorld } from "../../../codeBase/animation/hello world test/hello world";
+import { divsFadeIn } from "../../../codeBase/animation/on scroll/divsFadeIn/divsFadeIn001";
 
-helloWorld();
+export function buildThis() {
+
+divsFadeIn();
+
+};
