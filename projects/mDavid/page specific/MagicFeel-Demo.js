@@ -1,13 +1,15 @@
 
-import { divsFadeIn } from "../../../codeBase/animation/on scroll/divsFadeIn/divsFadeIn001";
+// import { divsFadeIn } from "../../../codeBase/animation/on scroll/divsFadeIn/divsFadeIn001";
+import { onScroll } from "../../../codeBase/animation/on scroll/onScroll001";
 
 export function buildThis() {
 
-  divsFadeIn();
+  // divsFadeIn();
+  onScroll();
 
 //Module Finder
   const modulesUsed = [
-    // 'divsFadeIn001'
+    'onScroll001'
   ];
 
   console.log("Modules used: ");
