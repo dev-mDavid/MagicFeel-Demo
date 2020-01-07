@@ -4,54 +4,60 @@ export function aboveTheFold() {
 
   // Start Phase
     // hideBackground
-    function startPhase() {
-      document.getElementById('magic-feel-opener').style.backgroundColor = 'white';
-      document.getElementsByTagName('h3')[0].style.color = '#1c1c1c';
-      document.getElementsByClassName('Header-tagline')[0].style.color = '#4287f5';
-    }
-    startPhase()
+      function startPhase() {
+        document.getElementById('magic-feel-opener').style.backgroundColor = 'white';
+        // document.getElementsByTagName('h1')[0].style.opacity = 0;
+        document.getElementsByTagName('h1')[0].style.color = '#1c1c1c';
+        document.getElementsByTagName('h3')[0].style.color = '#1c1c1c';
+        document.getElementsByClassName('Header-tagline')[0].style.color = '#4287f5';
+      }
+      startPhase()
 
-    // Hidden Title
-    function navTitle() {
-    var tl = new TimelineMax(); // Time Line
-    // Variables
-    var $navTitle = '.Header-branding';
-    var $STnavTitle = new SplitText(
-      $navTitle, {
-      type: 'chars',
-    });
+    // Title Reveal
+      function titleReveal() {
+        var tl = new TimelineMax()
+        // Variables
+        var title = document.getElementsByTagName('h1')[0];
+        var splitTextTitle = new SplitText(
+          title, {
+          type: 'chars',
+        });
 
-    var $titleLength = 1.3;
-    var $charsLength = $titleLength / ($titleLength * 50);
-    // Set
+        var titleLength = 2;
+        var charsLength = titleLength / (titleLength * 5);
+        // Set
 
-    // Animation
-    tl
-      .staggerFrom($STnavTitle.chars,
-        $titleLength, {
-        // opacity: 0,
-        // y: 100,
+        // Animation
+        tl
+          .staggerFrom(splitTextTitle.chars,
+            titleLength, {
+            opacity: 0,
+            // y: 100,
 
-        y: -10,
-        x: -5,
-        // rotationX: 180,
-        // rotationY: -120,
-        // x: -25,
-        // perspective: 400,
-        // y: 100,
-        // transformOrigin: '0% 60% -60%',
-        ease: Back.easeInOut
-      },
-        $charsLength,
-        '+=0',
-        onComplete
-      );
+            // y: -10,
+            // x: -5,
+            // rotationX: 180,
+            // rotationY: 120,
+            // x: -25,
+            perspective: 400,
+            scaleY: 0.8,
+            scaleX: 0.8,
+            // y: 100,
+            // transformOrigin: '0% 75% 0%',
+            // ease: Back.easeInOut
+          },
+            charsLength,
+            '+=0',
+            onComplete
+          );
 
-    function onComplete() {
-      $STnavTitle.revert();
-    }
-    ; return (tl)
-  // Title Reveal
+        function onComplete() {
+          splitTextTitle.revert();
+        }
+        ;
+      }
+      titleReveal()
+
   // Subtitle Wave Motion
 
   // Header Change
