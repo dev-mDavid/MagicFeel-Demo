@@ -102,6 +102,28 @@
         ; return (tl)
       }
 
+    function snapChange() {
+      // Variables
+      var tl = new TimelineMax(); // Time Line
+      // document.getElementById('magic-feel-opener').style.backgroundColor = 'black';
+      var title = document.getElementsByTagName('h1')[0];
+      var subtitle = document.getElementsByTagName('h3')[0];
+      // var header = document.getElementsByClassName()[0];
+      tl
+        .to('.Header--top', 0.01, { background: 'rgb(41,13,65)', background: 'radial-gradient(circle, rgba(41,13,65,1) 0%, rgba(123,8,170,1) 100%)' })
+        .to('#magic-feel-opener', 0.02, {backgroundColor: 'transparent'})
+        .to(title, 0.03, {color: 'white'})
+        .to(subtitle, 0.04, {color: 'white'})
+        .to('.Header-tagline', 0.05, {color: 'white'})
+        
+        
+
+      // Set Up
+
+      // Animation
+
+      ; return (tl)
+        }
   // Header Change
   // Video Reveal Background
   // Title Color Change
@@ -118,7 +140,9 @@
       .add('titleReveal')
 
       .add(subtitleSnap().duration(2),'titleReveal-=0')
+      .add('subtitleSnap')
 
+      .add(snapChange(),'subtitleSnap-=0.35')
     console.log("aboveTheFoldTimeLineDuration: " + master.duration())
 
 
