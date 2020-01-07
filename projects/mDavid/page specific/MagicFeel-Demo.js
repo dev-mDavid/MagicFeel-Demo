@@ -1,9 +1,10 @@
-import { aboveTheFold } from "../../../codeBase/animation/above the fold/aboveTheFold004";
-import { onScroll } from "../../../codeBase/animation/on scroll/onScroll002";
-
+import { afterDOMHasLoaded } from "../../../codeBase/helper services/afterDOMHasLoaded/afterDOMHasLoaded001";
+import { aboveTheFold } from "../../../codeBase/animation/above the fold/aboveTheFold005";
+// import { onScroll } from "../../../codeBase/animation/on scroll/onScroll002";
 export function buildThis() {
-
-  aboveTheFold();
-  onScroll();
+  afterDOMHasLoaded(
+    aboveTheFold()
+    // onScroll();
+  );
 
 };
