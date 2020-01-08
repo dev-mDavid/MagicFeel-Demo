@@ -4,5 +4,3 @@
 import { buildThis } from "./projects/mDavid/page specific/MagicFeel-Demo";
 buildThis();
 
-import { textSwoop } from "./codeBase/animation/mouse reactive/text swoop/textSwoop001";
-textSwoop();
