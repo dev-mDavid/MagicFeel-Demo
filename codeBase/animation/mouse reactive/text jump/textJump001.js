@@ -1,5 +1,4 @@
 export function textJump() {
-
   const textJumpIterationNum = '001';
   console.log('textJump' + textJumpIterationNum);
 

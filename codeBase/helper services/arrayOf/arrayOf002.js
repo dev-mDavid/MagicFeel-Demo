@@ -1,4 +1,8 @@
 export function arrayOf( target, type ) {
+  const arrayOfIterationNum = '002';
+  console.log('arrayOf' + arrayOfIterationNum);
+
+
   let arrayOf = [];
   
   switch (type) {
