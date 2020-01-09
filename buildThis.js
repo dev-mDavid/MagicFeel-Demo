@@ -4,5 +4,5 @@
 // import { buildThis } from "./projects/mDavid/page specific/MagicFeel-Demo";
 // buildThis();
 
-import { footer } from "./codeBase/animation/footer/footer001";
+import { footer } from "./codeBase/animation/footer/footer002";
 footer();

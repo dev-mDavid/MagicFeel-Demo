@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"function e(e){for(var s=[],l=0;l<e.length;l++)s.push(document.getElementsByClassName(e[l]));console.log(s)}e(\"sqs-gallery-design-grid-slide\");"},"hash":"dbaa94a3445b80da5738caa152eb89b5","cacheData":{"env":{}}}
