@@ -1,7 +1,7 @@
 # MagicFeel (Demo)
 
 &nbsp;&nbsp;&nbsp;&nbsp;
-MagicFeel was a motion design feature for my web development freelance business. The project was orginally developed in mid-2017. 
+MagicFeel was a motion design toolset. The project was orginally developed in mid-2017. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 But it wasn't built with other developers in mind— sharing or even viewing. This demo is a rebuild of that feature (with git and documentation) to show the some of the work & thought that went into building the original code.
